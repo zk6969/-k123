@@ -1,0 +1,38 @@
+#include "stdafx.h"
+
+#include <iostream>
+	using namespace std;
+
+	class A {
+	public:
+		void Draw() { cout << "A::AB()" << endl; }
+		void Erase() { cout << "A::CD()" << endl; }
+		A() { Draw(); }
+		~A() { Erase(); }
+	};
+	//-------------------------------------------------
+	class C :public A {
+	public:
+		C() { Draw(); }
+		void Draw() { cout << "C::AB()" << endl; }
+		void Erase() { cout << "C CD()" << endl; }
+		~C() { Erase(); }
+	};
+	//--------------------------------------------------
+	class G :public C {
+	public:
+		G() { Draw(); }
+		void Draw() { cout << "G::AB()" << endl; }
+		void Erase() { cout <<"G CD()" << endl; }
+		~G() { Erase(); }
+	};
+	//--------------------------------------------------
+	
+	//--------------------------------------------------
+	int main() {
+		C gg;
+		G ff ;
+		
+		cout << "------------------------------------------" << endl;
+		return 0;
+	}
