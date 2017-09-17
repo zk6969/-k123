@@ -1,0 +1,32 @@
+﻿<xml-body>
+<class>
+<warning>
+<![CDATA[<p>请输入正确的学号</p>]]>
+</warning>
+<stu id="20153322">
+<name>张三</name>
+<sex>男</sex>
+<age>18</age>
+</stu>
+<stu id="20154455">
+<name>李力</name>
+<sex>女</sex>
+<age>20</age>
+</stu>
+<stu id="20154475">
+<name>刘明</name>
+<sex>男</sex>
+<age>20</age>
+</stu>
+<stu id="20154476">
+<name>刘强</name>
+<sex>男</sex>
+<age>21</age>
+</stu>
+<stu id="20154479">
+<name>张华</name>
+<sex>男</sex>
+<age>20</age>
+</stu>
+</class>
+</xml-body>
